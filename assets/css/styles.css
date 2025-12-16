@@ -124,3 +124,15 @@ textarea:focus-visible {
 .text-muted {
   color: var(--colour-text-muted) !important;
 }
+
+/* Page headers */
+
+.page-header {
+  border-bottom: 1px solid var(--colour-border-subtle);
+}
+
+/* Contact form */
+
+.contact-form {
+  max-width: 640px;
+}
