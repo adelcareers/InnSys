@@ -1,25 +1,24 @@
-# InnSys
 # InnovaSys — Secure Cloud Architecture Website
 
-InnovaSys is a three-page, fully responsive static website created for the
-WAES Full Stack Bootcamp assessment. It showcases a fictional SOC 2 and
-HIPAA-aware cloud architecture consultancy focused on FinTech, HealthTech
-and GovTech organisations.
+InnovaSys is a responsive three-page marketing site for a fictional cloud
+architecture consultancy specialising in SOC 2 and HIPAA-aware solutions for
+FinTech, HealthTech and GovTech teams.
 
-> **Status:** Iteration 1 — base layout and Home page skeleton.
+## What’s inside
 
-## Tech stack
+- Pages: `index.html` (home), `solutions.html` (service pillars, accelerators),
+  `methodology.html` (engagement approach, contact form).
+- Frontend: HTML5, custom CSS with variables (`assets/css/styles.css`), and
+  Bootstrap 5.3.3 via CDN.
+- UX: Accessible navigation with skip links, responsive cards and sections,
+  example YAML snippet, and a mailto-driven contact form.
 
-- HTML5
-- CSS3 (custom stylesheet with CSS variables)
-- Bootstrap 5 (via CDN)
-- GitHub Pages (planned deployment target)
+## Run locally
 
-## Pages
+- Open `index.html` directly in a browser, or serve the folder (e.g.
+  `python -m http.server 8000`) and browse to `http://localhost:8000/`.
 
-- `index.html` — Home (hero, trust strip, Why InnovaSys)
-- `solutions.html` — Solutions & Services (planned)
-- `methodology.html` — Methodology & Contact (planned)
+## Deploy
 
-A full README with screenshots, validation evidence and deployment steps
-will be completed in later iterations.
+- Static-site ready: upload the repository contents to any static host (e.g.
+  GitHub Pages, Netlify, Vercel) with no build step required.
